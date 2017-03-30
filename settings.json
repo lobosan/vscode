@@ -30,11 +30,12 @@
       "src/.lessons": true
    },
    "window.menuBarVisibility": "toggle",
+   "window.title": "${rootName}",
    "workbench.activityBar.visible": false,
    "workbench.colorTheme": "Material Theme Darker",
    "workbench.editor.enablePreview": false,
    "workbench.iconTheme": "material-theme-icons",
    "workbench.statusBar.visible": false,
-   "workbench.welcome.enabled": false,
+   "workbench.welcome.enabled": true,
    "zenMode.hideTabs": false
 }

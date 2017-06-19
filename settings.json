@@ -14,7 +14,7 @@
     "vue": "html"
   },
   "explorer.autoReveal": false,
-  "explorer.openEditors.visible": 9,
+  "explorer.openEditors.visible": 0,
   "files.autoSave": "onFocusChange",
   "files.exclude": {
     "node_modules/": true

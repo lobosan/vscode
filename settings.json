@@ -32,7 +32,7 @@
    "window.menuBarVisibility": "toggle",
    "window.title": "${rootName}",
    "workbench.activityBar.visible": false,
-   "workbench.colorTheme": "Material Theme Darker",
+   "workbench.colorTheme": "One Dark Pro",
    "workbench.editor.enablePreview": false,
    "workbench.iconTheme": "material-theme-icons",
    "workbench.statusBar.visible": false,

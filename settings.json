@@ -1,9 +1,6 @@
 {
    "css.lint.emptyRules": "ignore",
    "editor.detectIndentation": false,
-   "editor.fontFamily": "Fira Code Light",
-   "editor.fontLigatures": true,
-   "editor.fontSize": 14,
    "editor.formatOnPaste": true,
    "editor.formatOnSave": true,
    "editor.formatOnType": true,
@@ -11,30 +8,28 @@
    "editor.minimap.enabled": false,
    "editor.renderControlCharacters": true,
    "editor.renderIndentGuides": true,
-   "editor.tabSize": 3,
+   "editor.tabSize": 2,
    "emmet.syntaxProfiles": {
       "vue-html": "html",
       "vue": "html"
    },
    "explorer.autoReveal": false,
    "explorer.openEditors.visible": 9,
-   "files.autoSave": "afterDelay",
+   "files.autoSave": "onFocusChange",
    "files.exclude": {
       "node_modules/": true
    },
-   "files.insertFinalNewline": true,
+   "files.insertFinalNewline": false,
    "files.trimTrailingWhitespace": true,
    "html.format.wrapLineLength": 0,
    "search.exclude": {
-      "build/": true,
-      "src/.lessons": true
+      "build/": true
    },
    "window.menuBarVisibility": "toggle",
    "window.title": "${rootName}",
    "workbench.activityBar.visible": false,
    "workbench.colorTheme": "One Dark Pro",
    "workbench.editor.enablePreview": false,
-   "workbench.iconTheme": "material-theme-icons",
    "workbench.statusBar.visible": false,
    "workbench.welcome.enabled": true,
    "zenMode.hideTabs": false

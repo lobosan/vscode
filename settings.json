@@ -1,36 +1,31 @@
 {
-  "css.lint.emptyRules": "ignore",
-  "editor.detectIndentation": false,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
-  "editor.lineHeight": 24,
+  "editor.lineHeight": 25,
   "editor.minimap.enabled": false,
-  "editor.renderControlCharacters": true,
-  "editor.renderIndentGuides": true,
   "editor.tabSize": 2,
-  "emmet.syntaxProfiles": {
-    "vue-html": "html",
-    "vue": "html"
-  },
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    { "language": "html", "autoFix": true },
+    { "language": "javascript", "autoFix": true },
+    { "language": "javascriptreact", "autoFix": true },
+    { "language": "vue", "autoFix": true }
+  ],
   "explorer.autoReveal": false,
   "explorer.openEditors.visible": 0,
   "files.autoSave": "onFocusChange",
-  "files.exclude": {
-    "node_modules/": true
-  },
-  "files.insertFinalNewline": false,
+  "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "html.format.wrapLineLength": 0,
+  "javascript.validate.enable": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "prettier.eslintIntegration": true,
   "search.exclude": {
-    "build/": true
+    "build/": true,
+    "dist/": true,
+    "node_modules/": true
   },
   "window.menuBarVisibility": "toggle",
   "window.title": "${rootName}",
-  "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "Dracula",
   "workbench.editor.enablePreview": false,
-  "workbench.statusBar.visible": true,
-  "workbench.welcome.enabled": true,
   "zenMode.hideTabs": false
 }

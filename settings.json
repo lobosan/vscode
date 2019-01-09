@@ -1,5 +1,4 @@
 {
-  "editor.lineHeight": 25,
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "eslint.autoFixOnSave": true,
@@ -14,17 +13,16 @@
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "html.format.wrapLineLength": 0,
-  "javascript.validate.enable": false,
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "prettier.eslintIntegration": true,
   "search.exclude": {
     "build/": true,
     "dist/": true,
     "node_modules/": true
   },
+  "vetur.completion.useScaffoldSnippets": false,
+  "vetur.validation.template": false,
   "window.menuBarVisibility": "toggle",
   "window.title": "${rootName}",
+  "window.zoomLevel": 0.7,
   "workbench.colorTheme": "Dracula",
   "workbench.editor.enablePreview": false,
   "zenMode.hideTabs": false
